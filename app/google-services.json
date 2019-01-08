@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "15599974685",
+    "firebase_url": "https://yamaharegistration.firebaseio.com",
+    "project_id": "yamaharegistration",
+    "storage_bucket": "yamaharegistration.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15599974685:android:ea3cefb6cbb3ace9",
+        "android_client_info": {
+          "package_name": "com.example.smakash.yamaharegistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15599974685-krqqn6imip7h38f3b7cj4q930ffuge1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smakash.yamaharegistration",
+            "certificate_hash": "e3012fe75947f60381b6386422f69a64f21e14a1"
+          }
+        },
+        {
+          "client_id": "15599974685-n54ti24uj4udqs6bqqfjvk6t9e5uiit9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA362y9aO6kicUqli8EzXtuA5R6NGTpeKg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15599974685-n54ti24uj4udqs6bqqfjvk6t9e5uiit9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

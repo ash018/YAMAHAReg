@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YAMAHA Registration</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_alldealer">3S (All Dealer)</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_retype">Retype Password</string>
+    <string name="hint_name">Name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_resend">Resend</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Name</string>
+    <string name="btn_serviceHistory">Service History</string>
+    <string name="btn_CreateRequest">Create Request</string>
+    <string name="submit">Submit</string>
+    <string name="details">Details</string>
+    <string name="company_name">Company Name</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="owner">Owner</string>
+    <string name="datetime">Date Time</string>
+    <string name="model">Model</string>
+    <string name="chassis">Chassis No</string>
+    <string name="hrm">HRM</string>
+    <string name="service_type">Service Type</string>
+    <string name="remarks">Remarks</string>
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="gps_network_not_enabled">GPS Network Not Enabled</string>
+    <string name="Cancel">Cancel</string>
+    <string name="dialog_text">You Cannot Create Request</string>
+    <string name="attention">Attention</string>
+    <string name="appname">YAMHAHA REGISTRATION</string>
+    <string name="mobile">Mobile No</string>
+    <string name="verification">Enter Verification Code</string>
+    <string name="documentText">Document process will start after all information have been collected.</string>
+    <string name="documentText2">After submitting your all documents, we need 15 days to deliver your document.</string>
+    <string name="RegistrationProcess">Registration Process will start after all information has been collected</string>
+    <string name="CollectDocument">Please Collect your document from YAMAHA 3S Center</string>
+    <string name="CollectDocumentRetailer">Please Collect your document from your retailer showroom</string>
+
+</resources>

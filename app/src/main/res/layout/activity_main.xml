@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bpWhite"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:text="Name: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bpblack"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/nameTV"
+                android:text=""
+                android:textIsSelectable="true"
+                android:textColor="@color/bpblack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Mobile No:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bpblack"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/mobileTV"
+                android:text=""
+                android:textIsSelectable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bpblack"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Engine No: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bpblack"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/engineTV"
+                android:text=""
+                android:textIsSelectable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bpblack"
+                android:layout_column="1" />
+        </TableRow>
+
+
+
+        <TableRow>
+
+            <TextView
+                android:text="Chasis No: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bpblack"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/chasisTV"
+                android:text=""
+                android:textIsSelectable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bpblack"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="InvoiceDate: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bpblack"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/invoiceTV"
+                android:text=""
+                android:textIsSelectable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bpblack"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Invoice No: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bpblack"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/invoiceNoTV"
+                android:text=""
+                android:textIsSelectable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bpblack"
+                android:layout_column="1" />
+        </TableRow>
+
+    </TableLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/LLMoney"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/border_background"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/str1"
+                android:text="1. Money"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/bpblack"
+                android:layout_weight="0.5" />
+
+            <CheckBox
+                android:id="@+id/moneyCheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLBRTA"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/border_background"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/str2"
+                android:text="2. Sign in BRTA form"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/bpblack"
+                android:layout_weight="0.5" />
+
+            <CheckBox
+                android:id="@+id/brtaCheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLPassport"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/border_background"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/str3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:textColor="@color/bpblack"
+                android:text="3. 4 Passport size picture" />
+
+            <CheckBox
+                android:id="@+id/passportCheck"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="false"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLNID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/border_background"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/str4"
+                android:text="4. NID Photocopy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/bpblack"
+                android:layout_weight="0.5" />
+
+            <CheckBox
+                android:id="@+id/nidCheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLUtility"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/border_background"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/str5"
+                android:text="5. Utility Bill"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/bpblack"
+                android:layout_weight="0.5" />
+
+            <CheckBox
+                android:id="@+id/utilityCheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bpblack"
+            android:text="@string/documentText2"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+
